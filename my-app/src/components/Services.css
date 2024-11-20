@@ -1,0 +1,58 @@
+/* Base styles for the services section */
+.services {
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.services-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4a90e2; /* Primary color */
+}
+
+/* Styles for the services list */
+.services-list {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Individual service card styles */
+.service-card {
+    background-color: #fff; /* White background for cards */
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation on hover */
+}
+
+/* Animation on hover for service cards */
+.service-card:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Icon styles for service cards */
+.service-icon {
+    font-size: 2em; /* Larger icon size */
+    margin-bottom: 10px; /* Space between icon and title */
+}
+
+/* Service title styles */
+.service-title {
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Service description styles */
+.service-description {
+    margin-top: 5px; /* Space above description */
+}
